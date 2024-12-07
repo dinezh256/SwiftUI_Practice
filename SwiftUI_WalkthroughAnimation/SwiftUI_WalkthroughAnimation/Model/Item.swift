@@ -23,28 +23,28 @@ struct Item: Identifiable {
 
 let items: [Item] = [
     .init(
-        image: "figure.walk.circle.fill",
-        title: "Keep an eye on your workout."
+        image: "dog.circle.fill",
+        title: "Unmatched love, wagging tails, endless joy"
     ),
     .init(
-        image: "figure.run.circle.fill",
-        title: "Maintain your cardio fitness.",
+        image: "cat.circle.fill",
+        title: "Graceful charm, purrs, and cozy cuddles",
         scale: 0.6,
         anchor: .topLeading,
         offset: -70,
         rotation: 30
     ),
     .init(
-        image: "figure.badminton.circle.fill",
-        title: "Take a break from work and relax.",
+        image: "hare.circle.fill",
+        title: "Softest fur, quiet hops, gentle hearts",
         scale: 0.5,
         anchor: .bottomLeading,
         offset: -60,
         rotation: -35
     ),
     .init(
-        image: "figure.climbing.circle.fill",
-        title: "Turn climbing into a hobby.",
+        image: "bird.circle.fill",
+        title: "Tiny friends, endless songs, bright days",
         scale: 0.4,
         anchor: .bottomLeading,
         offset: -50,
@@ -52,8 +52,8 @@ let items: [Item] = [
         extraOffset: -120
     ),
     .init(
-        image: "figure.cooldown.circle.fill",
-        title: "Cool down after a workout.",
+        image: "fish.circle.fill",
+        title: "Serene beauty, calming moments, vibrant life",
         scale: 0.35,
         anchor: .bottomLeading,
         offset: -50,
