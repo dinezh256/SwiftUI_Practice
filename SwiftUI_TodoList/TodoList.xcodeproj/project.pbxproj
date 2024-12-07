@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6548FCCF2CEE1D190094DDD6 /* Down in Frameworks */ = {isa = PBXBuildFile; productRef = 6548FCCE2CEE1D190094DDD6 /* Down */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		65196A622CCD535A00E98303 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -42,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6548FCCF2CEE1D190094DDD6 /* Down in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +105,7 @@
 			);
 			name = TodoList;
 			packageProductDependencies = (
+				6548FCCE2CEE1D190094DDD6 /* Down */,
 			);
 			productName = TodoList;
 			productReference = 65196A512CCD535700E98303 /* TodoList.app */;
@@ -177,6 +183,10 @@
 			);
 			mainGroup = 65196A482CCD535700E98303;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				65EB053B2CED9EAE0047FD77 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */,
+				65EB50902CEE168D00578492 /* XCRemoteSwiftPackageReference "Down" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 65196A522CCD535700E98303 /* Products */;
 			projectDirPath = "";
@@ -540,6 +550,33 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		65EB053B2CED9EAE0047FD77 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gonzalezreal/swift-markdown-ui";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.1;
+			};
+		};
+		65EB50902CEE168D00578492 /* XCRemoteSwiftPackageReference "Down" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/johnxnguyen/Down";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6548FCCE2CEE1D190094DDD6 /* Down */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65EB50902CEE168D00578492 /* XCRemoteSwiftPackageReference "Down" */;
+			productName = Down;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 65196A492CCD535700E98303 /* Project object */;
 }

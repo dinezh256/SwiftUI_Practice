@@ -9,9 +9,9 @@ import SwiftUI
 
 struct ListRowView: View {
     let item: ItemModel
-    
+
     var body: some View {
-        HStack() {
+        HStack {
             Image(systemName: item.isCompleted ? "checkmark.circle" : "circle")
                 .foregroundStyle(item.isCompleted ? .green : .red)
             Text(item.title)
@@ -25,6 +25,7 @@ struct ListRowView: View {
 }
 
 #Preview {
+
     Group {
         ListRowView(item: ItemModel(title: "Hello", isCompleted: true))
         ListRowView(item: ItemModel(title: "Hello", isCompleted: false))

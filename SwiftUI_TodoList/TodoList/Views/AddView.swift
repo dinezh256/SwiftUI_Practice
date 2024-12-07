@@ -25,7 +25,7 @@ struct AddView: View {
                 }
                 .padding()
                 .frame(height: 55)
-                .background(Color(uiColor: UIColor.systemGray6))
+                .background(Color(uiColor: UIColor.secondarySystemBackground))
                 .cornerRadius(10)
                 
                 Button(action: onSaveButtonPressed,
